@@ -1,1 +1,0 @@
-Fix gray material when loading a scene.
