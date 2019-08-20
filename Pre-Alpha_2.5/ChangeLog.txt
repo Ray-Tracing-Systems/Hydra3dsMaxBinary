@@ -12,7 +12,7 @@ FEATURES:
 
 IMPROVEMENTS:
 
-20.08.2009: Оверрайд рендера для материал эдитора на сканлайн, для ускорения работы в нём.
+20.08.2009: Override render for editor material on the scanline, to speed up work in it.
 
 
 
