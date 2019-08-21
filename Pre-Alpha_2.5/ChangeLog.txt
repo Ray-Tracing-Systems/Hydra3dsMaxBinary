@@ -19,6 +19,9 @@ IMPROVEMENTS:
 
 BUG FIXES:
 
+21.08.2009: The mesh of the light source disappears in the side views.
+
+
 
 
 
