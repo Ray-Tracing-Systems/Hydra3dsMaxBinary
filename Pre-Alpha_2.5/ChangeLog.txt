@@ -12,7 +12,7 @@ FEATURES:
 
 IMPROVEMENTS:
 
-20.08.2009: Override render for editor material on the scanline, to speed up work in it.
+21.08.2009: Override render for editor material on the scanline, to speed up work in it.
 
 
 
