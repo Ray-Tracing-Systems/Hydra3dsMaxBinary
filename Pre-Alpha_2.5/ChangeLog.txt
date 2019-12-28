@@ -4,26 +4,38 @@ BREAKING CHANGES:
 
 
 
-
 FEATURES:
-
+28_12_2019 - Anisotropic BRDF: Beckmann and GGX.
+28_12_2019 - Falloff.
+28_12_2019 - Blended box (triplanar mapping).
+28_12_2019 - AO (ambient occlusion). See current limitations.
+28_12_2019 - DOF for all GI algorithms. (there are still artifacts).
+28_12_2019 - BRDF clamp.
+28_12_2019 - Support for disabling texture filtering (important for anisotropy rotation textures).
 
 
 
 IMPROVEMENTS:
+28_12_2019 - Bad selection mesh of the Hydra light.
 03_09_2019 - Contrast does not oversaturate colors.
-21_08_2019 - Override render for editor material on the scanline, to speed up work in it.
-
+21_08_2019 - A large number of materials inhibits the mat. editor.
+22_08_2019 - Bad selection mesh of the sun.
 
 
 
 BUG FIXES:
-03_09_2019 - Constant brightness HydraLight in different system scene units and scale in photometric units (cd. and lm.).
-22_08_2019 - Fixed bad selection mesh of the sun.
+28_12_2019 - When the 3D render falls, max freezes.
+28_12_2019 - Transparency of the material with the back/Envir node.
+28_12_2019 - Sometimes there are Nan pixels with a normal map.
+03_09_2019 - Different brightness of the hydra light in different system units of the scene.
 22_08_2019 - Fixed crash 3D max during the rotation of the sun through the GUI.
-21_08_2019 - The mesh of the light source disappears in the side views.
+21_08_2019 - Hydra light disappears in viewport.
+and various small bugs.
 
 
 
-
-
+LIMITATIONS:
+Falloff, blended box, and AO cannot be embedded in each other.
+Blend box for relief (bump) works only with normal maps.
+AO only 2 cards per material.
+AO in convexity mode works only if there is an AO in concavity mode (bug).
