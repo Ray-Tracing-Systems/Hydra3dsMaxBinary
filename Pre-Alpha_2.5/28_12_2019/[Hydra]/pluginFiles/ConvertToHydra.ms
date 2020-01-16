@@ -1,5 +1,5 @@
 /*
-Last change: 13/11/2019
+Last change: 16/01/2020
 Author: Ray Tracing Systems.
 The conversion of materials and light sources from other renders in Hydra.
 */
@@ -261,7 +261,7 @@ fn ConvertMtlToHydra mtl=
 
 			-- Anisotropy
 			
-			if (mtl.shaderType = 0 or mtl.shaderType = 3) do
+			if (mtl.shaderType == 0 or mtl.shaderType == 3) do
 			(
 			newmtl.mtl_reflect_anisotropy 			= mtl.anisotropy / 100.0
 			newmtl.mtl_reflect_rotation 				= mtl.ORIENTATION / 360.0

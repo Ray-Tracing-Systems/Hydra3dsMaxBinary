@@ -16,6 +16,7 @@ FEATURES:
 
 
 IMPROVEMENTS:
+16_01_2020 - Better GGX sampling (Heitz 2017).
 28_12_2019 - Better selection mesh of the Hydra light.
 03_09_2019 - Contrast does not oversaturate colors.
 21_08_2019 - A large number of materials does not slow down the mat. editor.
@@ -24,6 +25,7 @@ IMPROVEMENTS:
 
 
 BUG FIXES:
+16_01_2020 - The V-Ray converter script does not work when using anisotropy.
 28_12_2019 - When the 3D render falls, max freezes.
 28_12_2019 - Transparency of the material with the back/Envir node.
 28_12_2019 - Sometimes there are Nan pixels with a normal map.
