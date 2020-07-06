@@ -7,11 +7,14 @@ set PATH_HYDRA=c:\[Hydra]
 
 del /Q %PATH_BINARY%\[Hydra]\bin2\
 del /Q %PATH_BINARY%\[Hydra]\bin2\shaders
+del /Q %PATH_BINARY%\[Hydra]\pluginFiles\
 del /Q %PATH_BINARY%\max2017\
 del /Q %PATH_BINARY%\max2018\
 del /Q %PATH_BINARY%\max2019\
 del /Q %PATH_BINARY%\max2020\
 del /Q %PATH_BINARY%\max2021\
+
+copy "%PATH_HYDRA%\pluginFiles\"                                     "%PATH_BINARY%\[Hydra]\pluginFiles\"
 
 copy "%PATH_HYDRA%\bin2"                                             "%PATH_BINARY%\[Hydra]\bin2\"
 copy "%PATH_HYDRA%\bin2\shaders"                                     "%PATH_BINARY%\[Hydra]\bin2\shaders"
