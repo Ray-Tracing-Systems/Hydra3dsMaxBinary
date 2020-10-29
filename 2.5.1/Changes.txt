@@ -1,0 +1,12 @@
+﻿29.10.2020
+
+Major changes in v2.5.1:
+* Added "Vibrance" to the post process.
+
+Improved:
+
+Fixed:
+* Incorrect locking GUI of the anisotropy.
+
+Restrictions:
+
