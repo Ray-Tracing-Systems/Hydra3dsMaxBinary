@@ -4,6 +4,7 @@ Major changes in v2.5.1:
 * Added "Vibrance" to the post process.
 
 Improved:
+* Contrast in a more correct color space.
 
 Fixed:
 * Incorrect locking GUI of the anisotropy.
