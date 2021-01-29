@@ -21,7 +21,6 @@ Changes in v2.5.1.
 
 Major changes:
 * Added "Vibrance" to the post process.
-* Added neural network Intel denoise.
 
 Improved:
 * Contrast and uniform contrast in a more correct color space.
