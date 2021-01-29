@@ -1,17 +1,19 @@
-﻿03.12.2020
+﻿Changes in v2.5.1.
+03.12.2020
 
-
-Major changes in v2.5.1:
+Major changes:
 * Added "Vibrance" to the post process.
 
 
 Improved:
 * Contrast and uniform contrast in a more correct color space.
+* Uniform Contrast works more gently, avoiding banding.
 
 
 Fixed:
 * Incorrect locking GUI of the anisotropy.
 * In white balance, color distortion on bright areas.
+
 
 
 Restrictions:
