@@ -13,6 +13,7 @@ del /Q %PATH_BINARY%\max2018\
 del /Q %PATH_BINARY%\max2019\
 del /Q %PATH_BINARY%\max2020\
 del /Q %PATH_BINARY%\max2021\
+del /Q %PATH_BINARY%\max2022\
 
 copy "%PATH_HYDRA%\pluginFiles\"                                     "%PATH_BINARY%\[Hydra]\pluginFiles\"
 
@@ -68,5 +69,15 @@ copy "%PATH_AUTODESK%\3ds Max 2021\Plugins\HydraMtlCatcher_2021.dlt" "%PATH_BINA
 copy "%PATH_AUTODESK%\3ds Max 2021\Plugins\HydraMtlLight_2021.dlt"   "%PATH_BINARY%\max2021\"
 copy "%PATH_AUTODESK%\3ds Max 2021\Plugins\HydraRender_2021.dlr"     "%PATH_BINARY%\max2021\"
 copy "%PATH_AUTODESK%\3ds Max 2021\Plugins\HydraSunSky_2021.dlo"     "%PATH_BINARY%\max2021\"
+
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraAO_2022.dlt"         "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraBackEnvir_2022.dlt"  "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraBlendedBox_2022.dlt" "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraLight_2022.dlo"      "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraMtl_2022.dlt"        "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraMtlCatcher_2022.dlt" "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraMtlLight_2022.dlt"   "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraRender_2022.dlr"     "%PATH_BINARY%\max2022\"
+copy "%PATH_AUTODESK%\3ds Max 2022\Plugins\HydraSunSky_2022.dlo"     "%PATH_BINARY%\max2022\"
 
 pause
