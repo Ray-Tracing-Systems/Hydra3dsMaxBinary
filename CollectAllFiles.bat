@@ -20,16 +20,6 @@ copy "%PATH_HYDRA%\pluginFiles\"                                     "%PATH_BINA
 copy "%PATH_HYDRA%\bin2"                                             "%PATH_BINARY%\[Hydra]\bin2\"
 copy "%PATH_HYDRA%\bin2\shaders"                                     "%PATH_BINARY%\[Hydra]\bin2\shaders"
 
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraAO_2017.dlt"         "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraBackEnvir_2017.dlt"  "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraBlendedBox_2017.dlt" "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraLight_2017.dlo"      "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraMtl_2017.dlt"        "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraMtlCatcher_2017.dlt" "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraMtlLight_2017.dlt"   "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraRender_2017.dlr"     "%PATH_BINARY%\max2017\"
-copy "%PATH_AUTODESK%\3ds Max 2017\Plugins\HydraSunSky_2017.dlo"     "%PATH_BINARY%\max2017\"
-                                                                       
 copy "%PATH_AUTODESK%\3ds Max 2018\Plugins\HydraAO_2018.dlt"         "%PATH_BINARY%\max2018\"
 copy "%PATH_AUTODESK%\3ds Max 2018\Plugins\HydraBackEnvir_2018.dlt"  "%PATH_BINARY%\max2018\"
 copy "%PATH_AUTODESK%\3ds Max 2018\Plugins\HydraBlendedBox_2018.dlt" "%PATH_BINARY%\max2018\"
