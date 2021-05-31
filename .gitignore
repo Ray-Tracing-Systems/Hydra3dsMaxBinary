@@ -1,3 +1,6 @@
+Doc/
 HydraRenderer_binary/
+PreRelease/
 
-CollectAllFiles.bat
+*.bat
+*.zip
