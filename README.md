@@ -1,5 +1,5 @@
-# HydraMaxBinary
-This is official place for release 3ds max plugin binaries and installer.
+# Hydra Renderer 3ds Max Plugin
+This is the official place to release the binaries and installer of the Hydra Renderer plugin for 3ds max.
 
 Installation:
 
