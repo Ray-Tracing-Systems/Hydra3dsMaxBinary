@@ -4,7 +4,7 @@ This is the official place to release the binaries and installer of the Hydra Re
 Installation:
 
 1) Remove the old version of the renderer through the standard Windows tools, if there is one.
-2) Download and unpack "HydraRendererXXX_Installer.zip" from "Releases" page.
+2) Download and unpack "HydraRendererXXX_Installer.zip" from "Releases" page and "Latest release" tag.
 3) Install "HydraRendererInstaller.msi".
 4) In the 3d max renderer settings, select "Hydra renderer".
 5) Read the documentation, it will save a lot of time.
@@ -13,14 +13,14 @@ http://www.ray-tracing.com/HydraRenderHelp.github.io/index.html
 Installation without an installer.
 
 1) Remove the old version of the renderer through the standard Windows tools, if there is one.
-2) Download and unpack "HydraRenderer2.5_binary.zip".
+2) Download and unpack "HydraRenderer2.5_binary.zip" from "Releases" page and release tag.
 3) Copy the "[Hydra]" folder to the root of the "C:\" drive.
 4) Copy the files from the "max20xx" folders to the plugins folder of your 3d max. For example, from "max2021" to "c:\Program Files\Autodesk\3ds Max 2021\Plugins\".
 
-Installing updates.
+Installing updates (pre-release versions).
 
 1) Install the full version using any of the above methods.
-2) Download the update, usually it is a folder with archives, for example "2.5.2".
+2) Download the update files from "Releases" page and "Pre-release" tag.
 3) Unpack the archives and overwrite the contents to the appropriate folders. For example:
 
 "bin2" in "C:\[Hydra]\bin2\".
