@@ -4,7 +4,7 @@ This is official place for release 3ds max plugin binaries and installer.
 Installation:
 
 1) Remove the old version of the renderer through the standard Windows tools, if there is one.
-2) Download and unpack "HydraRendererXXX_Installer.zip".
+2) Download and unpack "HydraRendererXXX_Installer.zip" from "Releases" page.
 3) Install "HydraRendererInstaller.msi".
 4) In the 3d max renderer settings, select "Hydra renderer".
 5) Read the documentation, it will save a lot of time.
