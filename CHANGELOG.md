@@ -47,3 +47,40 @@ Fixed:
 -   In white balance, color distortion on bright areas.
 
 Restrictions:
+
+
+### Changes in 2.5 (25.05.2020)
+
+Major changes:
+- Plugin for 3ds max 2021.
+- Anisotropic BRDF: Beckmann and TRGGX.
+- Multiscattered GGX (reflections and refractions).
+- Falloff.
+- Blended box (triplanar mapping).
+- Ambient occlusion (AO, dirt).
+- DOF for IBPT and MMLT (there are still some small artifacts).
+- Clamp for noise reduction.
+- Support for disabling texture filtering (important for rotation anisotropy textures).
+
+Improved:
+- Hydra light stands out better.
+- Contrast in the post process does not saturate the color.
+- A large number of materials does not slow down the material editor.
+- Displaying Back/Env in material editor.
+- Output messages to the render console.
+- Some fixes for broken polygons and vertexes, with warnings about this.
+
+Fixed:
+- When the render falls, max freezes.
+- In the transparency of the material with the Back/Envir node, the background is not visible.
+- Nan pixels with a normal map.
+- Different brightness of the Hydra light in different system units of the scene.
+- Max drops when the sun's Hydra rotates through the interface.
+- Hydra light disappears in the viewport.
+- All sorts of small bugs.
+
+Restrictions:
+- Falloff, blended box, and AO cannot be embedded in each other.
+- The Blended box is displayed as a normal texture in the viewport.
+- Blended box for relief (bump) in development.
+- Only 2 AO cards with different parameters per material.
