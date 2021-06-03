@@ -1,6 +1,7 @@
 Doc/
 HydraRenderer_binary/
 PreRelease/
+Release/
 
 *.bat
 *.zip
