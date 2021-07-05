@@ -40,5 +40,6 @@ http://www.raytracing.ru/3dsmax.html
 
 If you have any error when working with the render, or when installing it, which you could not solve, write to us about it:
 https://vk.com/hydrarenderer
+
 You can also create a new issue here:
 https://gitlab.com/raytracingsystems/3dsmaxplugin/-/issues
